@@ -9,7 +9,7 @@ function HeroSection() {
             <motion.div className="hero flex justify-center w-screen pr-3">
                 <motion.div className="pt-10">
                     <motion.h1 className="md:text-5xl sm:text-3xl font-extrabold pl-3">
-                        Everyday Is a New Begining
+                        Everyday Is a New Beginning.
                     </motion.h1>
                     <motion.p className="pl-3 pt-3 text-md">
                         Productboard helps product managers understand
