@@ -13,7 +13,7 @@ function Second() {
                     initial={{opacity:0,x:-100}}
                     whileInView={{opacity:1,x:0}}
                     transition={{duration:.3,delay:.3}}
-                    className="md:text-5xl text-3xl font-black text-gray-600">
+                    className="md:text-5xl text-3xl font-black text-gray-700">
                         Best Digital Marketing Solutions.
                     </motion.h1>
                     {/* item1 description */}
