@@ -4,7 +4,7 @@ import choose from '../choose.svg'
 
 function Choose() {
     return (
-        <motion.div className=" mt-10 md:p-10  mx-auto">
+        <motion.div className=" mt-10 md:p-10 pb-10 mb-10  mx-auto">
             {/* content */}
             <motion.div className="flex choose justify-content-center container font-extrabold text-gray-700 pt-10 md:px-10 px-3">
                     <motion.div className="lg:w-1/2 mr-10">
@@ -57,7 +57,7 @@ function Choose() {
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:1.2}}
                             className="text-2xl wrapper p-3">
-                                <motion.i className=" fa fa-newspaper-o text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
+                                <motion.i className=" fa fa-line-chart text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
                                  <div className="pl-3">
                                   <p>Business Analytics</p>
                                   <p className="text-base text-gray-400">We help you with your business statistics and analysis.</p>
