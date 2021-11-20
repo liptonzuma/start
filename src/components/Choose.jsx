@@ -30,7 +30,7 @@ function Choose() {
                                 <motion.i className=" fa fa-tasks text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
                                  <div>
                                  <p className="pl-3">Data Analysis</p>
-                                  <p className="text-base text-gray-400 pl-3">We wrangle and visualize your data and make predictions.
+                                    <p className="text-base text-gray-400 pl-3">We wrangle and visualize your data and make predictions.
                                   
                                   </p>
                                  </div>

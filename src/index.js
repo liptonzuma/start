@@ -7,6 +7,7 @@ import 'font-awesome/css/font-awesome.css'
 
 import './index.css'
 import Choose from './components/Choose'
+import Features from './components/Features'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeroSection/>
       <Second/>
       <Choose/>
+      <Features/>
     </div>
   )
 }
