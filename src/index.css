@@ -5,7 +5,8 @@
 
 html{
     font-family: 'Manjari',sans-serif !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width:100vw !important;
 }
 .link{
     position: relative;
