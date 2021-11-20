@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion/dist/framer-motion'
-import illustration from '../illustration.svg'
+import illustration from '../svg/illustration.svg'
 import React from 'react'
 
 function HeroSection() {

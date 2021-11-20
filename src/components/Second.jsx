@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion/dist/framer-motion'
-import solution from '../solution.svg'
+import solution from '../svg/solution.svg'
 
 function Second() {
     return (
