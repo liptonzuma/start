@@ -35,12 +35,12 @@ function HeroSection() {
 
                 {/* image illustration */}
                 <motion.div 
-                    initial={{opacity:0}}
-                    animate={{opacity:1}}
-                    transition={{delay:1.2}}
+                    initial={{opacity:0,y:-100}}
+                    animate={{opacity:1,y:0}}
+                    transition={{delay:1.2,duration:1.4}}
                 className="mx-auto sm:pl-10 sm:ml-10">
                     <motion.img 
-                        initial={{y:10}}
+                        initial={{y:30}}
                         animate={{y:0}}
                         transition={{
                         yoyo:Infinity,
