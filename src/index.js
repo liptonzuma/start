@@ -3,6 +3,7 @@ import ReactDom from 'react-dom'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Second from './components/Second'
+import 'font-awesome/css/font-awesome.css'
 
 import './index.css'
 

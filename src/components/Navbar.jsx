@@ -35,11 +35,11 @@ function Navbar() {
 
 
         </motion.ul>
-        <a 
+        <button 
         onClick={()=>setOpen(!open)}
         href="#" className="absolute right-5">
             <img src={icon} alt="logo" className="w-8"/>
-        </a>
+        </button>
         </nav>
       <nav className="nav-main items-center bg-purple-700 flex navbar justify-center p-5 text-lg fixed w-screen z-50 right-0 top-0">
         <a href="#" className="text-white logo text-3xl font-black pl-10">py<span className="text-green-400">.inc</span></a> 
