@@ -6,6 +6,7 @@ import Second from './components/Second'
 import 'font-awesome/css/font-awesome.css'
 
 import './index.css'
+import Choose from './components/Choose'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Second/>
+      <Choose/>
     </div>
   )
 }

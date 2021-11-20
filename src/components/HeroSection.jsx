@@ -25,9 +25,9 @@ function HeroSection() {
                     </motion.p>
                     
                     <motion.button 
-                    initial={{opacity:0,}}
-                    animate={{opacity:1}}
-                    transition={{duration:1.3,delay:1.1}}
+                    initial={{opacity:0,y:20}}
+                    animate={{opacity:1,y:0}}
+                    transition={{duration:.5,delay:1.1}}
                     className="text-center  text-center rounded-full shadow md:ml-10 mt-5  py-3 bg-green-400 w-40">Get In Touch</motion.button>
 
 
@@ -40,7 +40,7 @@ function HeroSection() {
                     transition={{delay:1.2,duration:1.4}}
                 className="mx-auto sm:pl-10 sm:ml-10">
                     <motion.img 
-                        initial={{y:30}}
+                        initial={{y:12}}
                         animate={{y:0}}
                         transition={{
                         yoyo:Infinity,
