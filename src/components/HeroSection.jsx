@@ -11,7 +11,7 @@ function HeroSection() {
                     <motion.h1 className="md:text-5xl sm:text-3xl font-extrabold md:pl-10">
                         Everyday Is a New Beginning.
                     </motion.h1>
-                    <motion.p className="md:pl-3 pt-3 text-md md:pl-10">
+                    <motion.p className="md:pl-3 pt-3 text-lg md:pl-10">
                         Productboard helps product managers understand
                         what customers need, prioritize what to build next.
                     </motion.p>
