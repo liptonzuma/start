@@ -4,7 +4,7 @@ import solution from '../solution.svg'
 
 function Second() {
     return (
-        <motion.div className="pb-5 w-screen">
+        <motion.div className="pb-5">
             <motion.div className="flex p-10 justify-center items-center second">
                 {/* container */}
                 <motion.div className="md:px-10 lg:w-1/2">
