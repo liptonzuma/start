@@ -4,8 +4,8 @@ import solution from '../solution.svg'
 
 function Second() {
     return (
-        <motion.div className="pb-10">
-            <motion.div className="flex p-10 justify-center w-screen  items-center second">
+        <motion.div className="pb-10 w-screen">
+            <motion.div className="flex p-10 justify-center items-center second">
                 {/* container */}
                 <motion.div className="md:px-10 lg:w-1/2">
                     {/* item 1 */}
@@ -13,7 +13,7 @@ function Second() {
                     initial={{opacity:0,x:-100}}
                     whileInView={{opacity:1,x:0}}
                     transition={{duration:.3,delay:.3}}
-                    className="text-5xl font-black text-gray-600">
+                    className="md:text-5xl text-3xl font-black text-gray-600">
                         Best Digital Marketing Solutions.
                     </motion.h1>
                     {/* item1 description */}
