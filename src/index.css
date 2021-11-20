@@ -66,4 +66,7 @@ html{
     .second {
         flex-direction: column;
     }
+    .list{
+        margin-bottom: 4rem;
+    }
 }

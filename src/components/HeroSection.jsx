@@ -8,27 +8,44 @@ function HeroSection() {
         <motion.div className="pb-5 text-white px-5 h-4/5 pt-20 bg-purple-700 w-screen mt-10">
             <motion.div className="hero flex justify-center  pr-3 pt-10">
                 <motion.div className="pt-10">
-                    <motion.h1 className="md:text-5xl sm:text-3xl font-extrabold md:pl-10">
+                    <motion.h1 
+                    initial={{opacity:0,x:-100}}
+                    animate={{opacity:1,x:0}}
+                    transition={{duration:.6,delay:.2}}
+                    className="md:text-5xl sm:text-3xl font-extrabold md:pl-10">
                         Everyday Is a New Beginning.
                     </motion.h1>
-                    <motion.p className="md:pl-3 pt-3 text-lg md:pl-10">
+                    <motion.p 
+                    initial={{opacity:0,y:100}}
+                    animate={{opacity:1,y:0}}
+                    transition={{duration:.6,delay:.3}}
+                    className="md:pl-3 pt-3 text-lg md:pl-10">
                         Productboard helps product managers understand
                         what customers need, prioritize what to build next.
                     </motion.p>
                     
-                    <button className="text-center  text-center rounded-full shadow md:ml-10 mt-5  py-3 bg-green-400 w-40">Get In Touch</button>
+                    <motion.button 
+                    initial={{opacity:0,}}
+                    animate={{opacity:1}}
+                    transition={{duration:1.3,delay:1.1}}
+                    className="text-center  text-center rounded-full shadow md:ml-10 mt-5  py-3 bg-green-400 w-40">Get In Touch</motion.button>
 
 
                 </motion.div>
 
                 {/* image illustration */}
-                <motion.div className="mx-auto sm:pl-10 sm:ml-10">
+                <motion.div 
+                    initial={{opacity:0}}
+                    animate={{opacity:1}}
+                    transition={{delay:1.2}}
+                className="mx-auto sm:pl-10 sm:ml-10">
                     <motion.img 
                         initial={{y:10}}
                         animate={{y:0}}
                         transition={{
                         yoyo:Infinity,
-                        duration:.6
+                        duration:.6,
+                        delay:1
                         }}
                     className="w-4/5" src={illustration} alt="illustration"/>
                 </motion.div>
