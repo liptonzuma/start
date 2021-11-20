@@ -12,7 +12,7 @@ function Navbar() {
     <>
     <nav className="md:hidden flex-col  bg-purple-700 flex justify-between p-5 text-lg fixed w-screen z-50 right-0 top-0">
 
-        <a href="#" className="text-white logo text-3xl font-black">py<span className="text-green-400">.inc</span></a> 
+        <a href="#" className="text-white logo text-3xl font-black pl-10">py<span className="text-green-400">.inc</span></a> 
             <motion.ul 
             animate={open?{x:0}:{x:-900}}
             transition={{ type: "tween", stiffness: 350 }}
@@ -42,7 +42,7 @@ function Navbar() {
         </a>
         </nav>
       <nav className="nav-main items-center bg-purple-700 flex navbar justify-center p-5 text-lg fixed w-screen z-50 right-0 top-0">
-        <a href="#" className="text-white logo text-3xl font-black">py<span className="text-green-400">.inc</span></a> 
+        <a href="#" className="text-white logo text-3xl font-black pl-10">py<span className="text-green-400">.inc</span></a> 
         <ul className="text-white flex mx-auto w-100 justify-around ">
             <motion.li  className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
                 <a href="#">Home</a>
