@@ -12,7 +12,7 @@ function Features() {
            {/* Flex container */}
            <motion.div className="flex justify-center items-center lg:p-10 lg:m-10 features ">
                {/* Three flex items */}
-                <motion.div className="lg:w-1/3 w-100 lg:pl-0 pl-10">
+                <motion.div className="lg:w-1/3 w-100 lg:pl-0">
                    <motion.div>
                        <motion.div 
                             initial={{opacity:0,y:-10}}

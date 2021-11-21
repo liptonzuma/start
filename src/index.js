@@ -11,7 +11,7 @@ import Features from './components/Features'
 
 function App() {
   return (
-    <div>
+    <div className="w-100">
       <Navbar/>
       <HeroSection/>
       <Second/>

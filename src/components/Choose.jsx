@@ -27,7 +27,7 @@ function Choose() {
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
                             className="text-2xl wrapper p-3">
-                                <motion.i className=" fa fa-tasks text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
+                                <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-tasks text-2xl rounded-full bg-purple-700  icon text-white "></motion.i></p>
                                  <div>
                                  <p className="pl-3">Data Analysis</p>
                                     <p className="text-base text-gray-400 pl-3">We wrangle and visualize your data and make predictions.
@@ -43,7 +43,7 @@ function Choose() {
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.9}}
                             className="text-2xl wrapper p-3">
-                                <motion.i className=" fa fa-pie-chart text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
+                                <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-pie-chart text-2xl  icon text-white "></motion.i></p>
                                  <div>
                                  <p className="pl-3"> PPC Marketing</p>
                                   <p className="text-base text-gray-400 pl-2">We make marketing very real to bring on new customers.</p>
@@ -57,7 +57,7 @@ function Choose() {
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:1.2}}
                             className="text-2xl wrapper p-3">
-                                <motion.i className=" fa fa-line-chart text-2xl rounded-full bg-purple-700  icon text-white "></motion.i>
+                                <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-line-chart text-2xl  icon text-white "></motion.i></p>
                                  <div className="pl-3">
                                   <p>Business Analytics</p>
                                   <p className="text-base text-gray-400">We help you with your business statistics and analysis.</p>
