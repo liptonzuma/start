@@ -8,6 +8,7 @@ import 'font-awesome/css/font-awesome.css'
 import './index.css'
 import Choose from './components/Choose'
 import Features from './components/Features'
+import Testimonial from './components/Testimonial'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Second/>
       <Choose/>
       <Features/>
+      <Testimonial/>
     </div>
   )
 }
