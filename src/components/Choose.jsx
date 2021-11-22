@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion/dist/framer-motion'
-import choose from '../svg/choose.svg'
+import choose from '../assets/svg/choose.svg'
 
 function Choose() {
     return (

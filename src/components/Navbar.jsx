@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { motion } from 'framer-motion/dist/framer-motion'
 import React, { useState } from 'react'
-import logo from '../svg/github.png'
-import icon from '../svg/hamburger.png'
+import logo from '../assets/svg/github.png'
+import icon from '../assets/svg/hamburger.png'
 
 function Navbar() {
 

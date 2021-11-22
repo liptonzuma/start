@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion/dist/framer-motion'
-import features from '../svg/features.svg'
+import features from '../assets/svg/features.svg'
 
 function Features() {
     return (
@@ -18,6 +18,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-globe icon text-white "></motion.i></p>
                                  <div>
@@ -33,6 +34,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-mobile icon text-white text-2xl "></motion.i></p>
                                  <div>
@@ -48,6 +50,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-object-group icon text-white "></motion.i></p>
                                  <div>
@@ -83,6 +86,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-cubes icon text-white "></motion.i></p>
                                  <div>
@@ -98,6 +102,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-newspaper-o icon text-white "></motion.i></p>
                                  <div>
@@ -113,6 +118,7 @@ function Features() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-database icon text-white "></motion.i></p>
                                  <div>
