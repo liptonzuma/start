@@ -63,6 +63,11 @@ html{
 .team-wave{
     margin-bottom: -10px;
 }
+
+.testimony-card{
+    border:2px solid silver;
+}
+
 @media (max-width: 768px) {
     .nav-main{
         display: none;
