@@ -12,6 +12,7 @@ function Choose() {
                         initial={{opacity:0,x:100}}
                         whileInView={{opacity:1,x:0}}
                         transition={{delay:.2,duration:.3}}
+                        viewport={{ once: true }}
                      src={choose} alt="solutions" className="w-5/6"/>
                     </motion.div>
 
@@ -26,6 +27,7 @@ function Choose() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.6}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-tasks text-2xl rounded-full bg-purple-700  icon text-white "></motion.i></p>
                                  <div>
@@ -42,6 +44,7 @@ function Choose() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:.9}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-pie-chart text-2xl  icon text-white "></motion.i></p>
                                  <div>
@@ -56,6 +59,7 @@ function Choose() {
                             initial={{opacity:0,y:-10}}
                             whileInView={{opacity:1,y:0}}
                             transition={{duration:.6,delay:1.2}}
+                            viewport={{ once: true }}
                             className="text-2xl wrapper p-3">
                                 <p className="text-2xl rounded-full bg-purple-700 flex items-center justify-center"><motion.i className=" fa fa-line-chart text-2xl  icon text-white "></motion.i></p>
                                  <div className="pl-3">

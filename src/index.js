@@ -9,6 +9,7 @@ import './index.css'
 import Choose from './components/Choose'
 import Features from './components/Features'
 import Testimonial from './components/Testimonial'
+import Team from './components/Team'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Second/>
       <Choose/>
       <Features/>
+      <Team/>
       <Testimonial/>
     </div>
   )
