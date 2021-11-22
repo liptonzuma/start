@@ -3,6 +3,7 @@ import { motion } from 'framer-motion/dist/framer-motion'
 import Kips from '../assets/images/team1.jpg'
 import Glen from '../assets/images/team2.jpg'
 import Lipton from '../assets/images/team3.jpg'
+import { Carousel } from 'react-responsive-carousel';
 
 const testimonies = [
     {
