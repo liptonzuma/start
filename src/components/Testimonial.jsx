@@ -32,7 +32,7 @@ function Testimonial() {
         <>
         <motion.h1 className="text-center text-gray-400 pt-10 font-bold text-base ">TESTIMONY</motion.h1>
 
-        <motion.div className="flex justify-between items-center relative p-10 m-10">
+        <motion.div className="flex justify-between items-center relative p-10 mr-auto">
         {/* item 1 */}
         
             <motion.div className=" flex-grow-0 w-64 check">
@@ -47,7 +47,7 @@ function Testimonial() {
             </motion.div>
 
         {/* item 2 */}
-        <div className="flex justify-around carousel-container">
+        <div className="flex justify-around carousel-container container">
            { testimonies.map(e=>(
         <motion.div className="border-gray-500 bg-gray-200 p-8 mx-10">
                <motion.div className="testmony-card flex justify-center flex-col w-72 ">
