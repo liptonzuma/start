@@ -4,7 +4,6 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Second from './components/Second'
 import 'font-awesome/css/font-awesome.css'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import './index.css'
 import Choose from './components/Choose'
