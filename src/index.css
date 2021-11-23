@@ -67,7 +67,12 @@ html{
 .testimony-card{
     border:2px solid silver;
 }
-
+.avatar{
+    width:2rem;
+    height:2rem;
+    text-align: center;
+    margin:0.2rem 0rem 0rem 0rem;
+}
 
 @media (max-width: 768px) {
     .nav-main{

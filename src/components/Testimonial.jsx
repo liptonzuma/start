@@ -9,13 +9,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 const testimonies = [
     {
-        name:"Kips Leo",
+        name:"John Doe",
         comment:"PY.inc is the best IT solutions agency I have worked with so far. I will advice everyone to partner with them. ",
         company:"Kips Enterprise",
         image:Kips
     },
     {
-        name:"Glen Lax",
+        name:"Sam Smith",
         comment:"PY.inc is the best IT solutions agency I have worked with so far. I will advice everyone to partner with them. ",
         company:"Lax Products and Cosmetics",
         image:Glen
