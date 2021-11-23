@@ -35,7 +35,7 @@ function Testimonial() {
         <motion.h1 className="text-center text-gray-400 pt-10 font-bold text-base ">TESTIMONY</motion.h1>
         <div className="flex justify-center items-center w-screen flex-col md:flex-row pt-10 pb-20">
         <motion.div className="md:w-1/2 w-full">
-        <motion.p className="md:text-4xl text-3xl font-black text-gray-800 px-14 text-center">
+        <motion.p className="md:text-4xl text-3xl font-black text-gray-800 px-14 text-center pb-4">
             Check What our customers are saying about our services.
         </motion.p>
         <motion.p className="text-lg text-gray-400 px-14 text-center">
@@ -45,10 +45,10 @@ function Testimonial() {
 
         <Carousel 
             showArrows={false}
-            stopOnHover={false}
-            swipeable={true}
+            stopOnHover={true}
             infiniteLoop={true}
             autoPlay={true}
+
         className="carousel-container md:w-1/2 w-full">
            { testimonies.map((e,i)=>(
         <motion.div className="border-gray-500 bg-gray-200 p-8 mx-10 " key={i}>

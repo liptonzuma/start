@@ -10,6 +10,7 @@ import Choose from './components/Choose'
 import Features from './components/Features'
 import Testimonial from './components/Testimonial'
 import Team from './components/Team'
+import Blog from './components/Blog'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Features/>
       <Team/>
       <Testimonial/>
+      <Blog/>
     </div>
   )
 }

@@ -25,6 +25,8 @@ function Team() {
                 transition={{
                     duration:1.1
                 }}
+                viewport={{ once: true }}
+
                 className="m-10">
                     <motion.div className="card w-52 h-52 bg-center bg-contain ring-purple-500 shadow ring-8 rounded-full "
                         style={{backgroundImage:`url(${micheal})`}}
@@ -39,6 +41,8 @@ function Team() {
                 transition={{
                     duration:1.1,
                 }}
+                    viewport={{ once: true }}
+
                  className="m-10">
                     <motion.div className="card w-52 h-52 bg-center bg-contain ring-purple-500 shadow ring-8 rounded-full "
                         style={{backgroundImage:`url(${John})`}}
@@ -53,6 +57,8 @@ function Team() {
                 transition={{
                     duration:1.1
                 }}
+                    viewport={{ once: true }}
+
                 className="m-10">
                     <motion.div className="card w-52 h-52 bg-center bg-contain ring-purple-500 shadow ring-8 rounded-full "
                         style={{backgroundImage:`url(${Edwin})`}}
