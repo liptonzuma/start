@@ -67,12 +67,7 @@ html{
 .testimony-card{
     border:2px solid silver;
 }
-.check{
-    width:40% !important;
-}
-.carousel-container{
-    width:50% !important;
-}
+
 
 @media (max-width: 768px) {
     .nav-main{

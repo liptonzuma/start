@@ -4,6 +4,8 @@ import Kips from '../assets/images/team1.jpg'
 import Glen from '../assets/images/team2.jpg'
 import Lipton from '../assets/images/team3.jpg'
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const testimonies = [
     {
@@ -31,28 +33,28 @@ function Testimonial() {
     return (
         <>
         <motion.h1 className="text-center text-gray-400 pt-10 font-bold text-base ">TESTIMONY</motion.h1>
+        <div className="flex justify-center items-center w-screen flex-col md:flex-row pt-10 pb-20">
+        <motion.div className="md:w-1/2 w-full">
+        <motion.p className="md:text-4xl text-3xl font-black text-gray-800 px-14 text-center">
+            Check What our customers are saying about our services.
+        </motion.p>
+        <motion.p className="text-lg text-gray-400 px-14 text-center">
+            We deliver on everything we say, from accurate predictions to classic and very realistic UI
+        </motion.p>
+        </motion.div>
 
-        <motion.div className="flex justify-between items-center relative p-10 mr-auto">
-        {/* item 1 */}
-        
-            <motion.div className=" flex-grow-0 w-64 check">
-                <motion.h1 className="md:text-5xl text-3xl text-gray-800 font-extrabold">
-                    Check what our clients are saying
-                </motion.h1>
-                <motion.p className="text-gray-500">
-                    We deliver exactly what we assured you
-                    from neat designs to accurate business 
-                    predictions.
-                </motion.p>
-            </motion.div>
-
-        {/* item 2 */}
-        <div className="flex justify-around carousel-container container">
-           { testimonies.map(e=>(
-        <motion.div className="border-gray-500 bg-gray-200 p-8 mx-10">
-               <motion.div className="testmony-card flex justify-center flex-col w-72 ">
+        <Carousel 
+            showArrows={false}
+            stopOnHover={false}
+            swipeable={true}
+            infiniteLoop={true}
+            autoPlay={true}
+        className="carousel-container md:w-1/2 w-full">
+           { testimonies.map((e,i)=>(
+        <motion.div className="border-gray-500 bg-gray-200 p-8 mx-10 " key={i}>
+               <motion.div className="testmony-card flex justify-center  flex-col ">
                 <motion.div className="flex justify-center relative">
-                <motion.div className="card absolute bottom-0  w-24 mb-3 h-24 bg-center bg-contain ring-gray-300 shadow ring-8 rounded-full "
+                <motion.div className="card  w-24 mb-3 h-24 bg-center bg-contain ring-gray-300 shadow ring-8 rounded-full "
                         style={{backgroundImage:`url(${e.image})`}}
                     ></motion.div>
                 </motion.div>
@@ -68,11 +70,10 @@ function Testimonial() {
 
            ))
            }
-           </div>
+           </Carousel>
  
 
-
-        </motion.div>
+</div>
         </>
     )
 }
