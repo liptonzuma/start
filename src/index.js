@@ -11,6 +11,7 @@ import Features from './components/Features'
 import Testimonial from './components/Testimonial'
 import Team from './components/Team'
 import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Team/>
       <Testimonial/>
       <Blog/>
+      <Footer/>
     </div>
   )
 }
