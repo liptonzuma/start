@@ -5,7 +5,7 @@ import React from 'react'
 function HeroSection() {
     return (
         <>
-        <motion.div className="pb-5 text-white px-5 h-4/5 pt-20 bg-purple-700 w-screen mt-10">
+        <motion.div className="pb-5 text-white px-5 h-4/5 pt-20 bg-purple-700 w-screen mt-10" id="home">
             <motion.div className="hero flex justify-center  pr-3 pt-10">
                 <motion.div className="pt-10">
                     <motion.h1 

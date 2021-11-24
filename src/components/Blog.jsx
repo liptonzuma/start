@@ -41,7 +41,7 @@ const posts = [
 
 function Blog() {
     return (
-        <motion.div className="md:p-32 p-8">
+        <motion.div className="md:p-32 p-8" id="blog">
             <p className="text-center text-lg text-gray-500">LATEST ARTICLES.</p>
             <h1 className="text-5xl text-gray-700 text-center font-black py-3">Our Stories Posts</h1>
 

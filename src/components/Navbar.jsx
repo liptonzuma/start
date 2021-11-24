@@ -19,19 +19,19 @@ function Navbar() {
             transition={{ type: "tween", stiffness: 350 }}
             className="text-white mt-10 w-100 z-50 fixed inset-0 bg-purple-500 top-9 pl-4 ">
             <motion.li  className="my-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </motion.li>
             <motion.li className="my-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Pages</a>
+                <a href="#pages">Pages</a>
             </motion.li>
             <motion.li className="my-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
             </motion.li>
             <motion.li className="my-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Blog</a>
+                <a href="#blog">Blog</a>
             </motion.li>
             <motion.li className="my-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
             </motion.li>
 
 

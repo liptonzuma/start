@@ -4,7 +4,7 @@ import choose from '../assets/svg/choose.svg'
 
 function Choose() {
     return (
-        <motion.div className=" mt-10 md:p-10 pb-10 mb-10  mx-auto">
+        <motion.div className=" mt-10 md:p-10 pb-10 mb-10  mx-auto" id="portfolio">
             {/* content */}
             <motion.div className="flex choose justify-content-center container font-extrabold text-gray-700 pt-10 md:px-10 px-3">
                     <motion.div className="lg:w-1/2 mr-10">
