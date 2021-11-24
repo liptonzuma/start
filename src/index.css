@@ -73,6 +73,16 @@ html{
     text-align: center;
     margin:0.2rem 0rem 0rem 0rem;
 }
+.input{
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color:white
+}
+.input::placeholder{
+    color: white;
+    fontsize:1.4rem
+}
 
 @media (max-width: 768px) {
     .nav-main{
