@@ -34,7 +34,7 @@ function Footer() {
                             <i className="fa fa-github"></i>
                             <p>Github</p>
                         </a>
-                        <a href="" className="text-white text-2xl flex" target="_blank" >
+                        <a href="https://www.linkedin.com/in/solomon-boateng-12768b195/" className="text-white text-2xl flex" target="_blank" >
                             <i className="fa fa-linkedin pr-1"></i>
                             <p>Linkedin</p>
                         </a>

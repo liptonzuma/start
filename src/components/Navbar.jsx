@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { motion } from 'framer-motion/dist/framer-motion'
 import React, { useState } from 'react'
@@ -45,23 +46,23 @@ function Navbar() {
         <a href="#" className="text-white logo text-3xl font-black pl-10">py<span className="text-green-400">.inc</span></a> 
         <ul className="text-white flex mx-auto w-100 justify-around ">
             <motion.li  className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </motion.li>
             <motion.li className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Pages</a>
+                <a href="#pages">Pages</a>
             </motion.li>
             <motion.li className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
             </motion.li>
             <motion.li className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Blog</a>
+                <a href="#blog">Blog</a>
             </motion.li>
             <motion.li className="mr-10 link font-semibold hover:text-green-400 transition ease-in duration-300">
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
             </motion.li>
         </ul>
       
-        <a href="#">
+        <a href="https://github.com/liptonzuma" target="_blank">
             <img src={logo} alt="logo" className="w-8"/>
         </a>
       </nav>
