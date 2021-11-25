@@ -16,6 +16,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  
   "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -23,6 +24,7 @@
     "preDeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
