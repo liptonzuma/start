@@ -22,7 +22,7 @@ function Footer() {
                         like they never existed.
                     </p>
                 </div>
-                <div className="flex flex-col md:px-8 px-0 md:w-6/12 w-12/12">
+                <div className="flex flex-col md:px-8 px-0 md:w-6/12 w-12/12 md:mt-0 mt-5">
                     <h1 className="text-white text-3xl font-extrabold">Subscribe to Newsletters.</h1>
                     <input placeholder="Enter email" className="px-2 py-2 md-4 input"/>
                     <div className="icons flex  justify-between mt-4">
